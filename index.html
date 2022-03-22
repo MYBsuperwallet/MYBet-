@@ -51,6 +51,12 @@
     async function sendShare() {
       const result = await liff.shareTargetPicker([{
         {
+          "type": "flex",
+          "altText": "ขอเลขบัญชีหน่อย เดี๋ยวโอนให้",
+          "contents": {
+  "type": "carousel",
+  "contents": [
+        {
       "type": "bubble",
       "hero": {
         "type": "image",
